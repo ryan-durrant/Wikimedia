@@ -19,6 +19,7 @@ a {
 .text_container p {
   font-size: 125%;
   font-family: sans-serif;
+  line-height: 145%;
 }
 
 .text_container h3 {
@@ -35,12 +36,18 @@ footer span {
   margin-right: 15px;
 }
 
+footer p {
+  line-height: 140%;
+}
+
 .images_container {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0;
+  padding-top: 40px;
   justify-content: space-between;
+  align-items: center;
+
 }
 
 img {
@@ -50,8 +57,7 @@ img {
 }
 
 @media (min-width: 899px) {
-  img {
+  .images_container div {
     flex-basis: 25%;
-    width: 135px;
   }
 }
